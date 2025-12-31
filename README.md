@@ -17,8 +17,8 @@ This project is a simple Expense Tracker API built using ASP.NET Web API.
 - SQL Server
 - Entity Framework
 
-  ## Project Structure
-
+ ## Project Structure
+ 
 ExpenseTrackerAPI/
 ├── ExpenseTrackerAPI.sln
 ├── ExpenseTrackerAPI/
