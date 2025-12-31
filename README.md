@@ -39,7 +39,6 @@ ExpenseTrackerAPI/
 └── .vs/   (auto-generated — ignore in git)
 
 
-
 ## How to Run
 
 1. Open project in Visual Studio
