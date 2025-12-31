@@ -17,6 +17,26 @@ This project is a simple Expense Tracker API built using ASP.NET Web API.
 - SQL Server
 - Entity Framework
 
+  ## 📂 Project Structure
+ExpenseTrackerAPI/
+├── ExpenseTrackerAPI.sln
+├── ExpenseTrackerAPI/
+│ ├── App_Start/
+│ │ └── WebApiConfig.cs
+│ ├── Controllers/
+│ │ └── ExpenseController.cs
+│ ├── Models/
+│ │ ├── Expense.cs
+│ │ └── ExpenseDbContext.cs
+│ ├── Properties/
+│ │ └── AssemblyInfo.cs
+│ ├── Web.config
+│ ├── Global.asax
+│ └── packages.config
+├── .gitignore
+├── README.md
+└── .vs/ (auto-generated — ignore in git)
+
 ## How to Run
 
 1. Open project in Visual Studio
@@ -43,24 +63,5 @@ This project is a simple Expense Tracker API built using ASP.NET Web API.
   }
 ]
 
-## 📂 Project Structure
 
-ExpenseTrackerAPI/
-├── ExpenseTrackerAPI.sln
-├── ExpenseTrackerAPI/
-│ ├── App_Start/
-│ │ └── WebApiConfig.cs
-│ ├── Controllers/
-│ │ └── ExpenseController.cs
-│ ├── Models/
-│ │ ├── Expense.cs
-│ │ └── ExpenseDbContext.cs
-│ ├── Properties/
-│ │ └── AssemblyInfo.cs
-│ ├── Web.config
-│ ├── Global.asax
-│ └── packages.config
-├── .gitignore
-├── README.md
-└── .vs/ (auto-generated — ignore in git)
 
