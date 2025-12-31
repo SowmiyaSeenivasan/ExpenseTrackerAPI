@@ -43,26 +43,24 @@ This project is a simple Expense Tracker API built using ASP.NET Web API.
   }
 ]
 
-## Structure
+## 📂 Project Structure
+
 ExpenseTrackerAPI/
 ├── ExpenseTrackerAPI.sln
 ├── ExpenseTrackerAPI/
-│   ├── App_Start/
-│   │   └── WebApiConfig.cs
-│   ├── Controllers/
-│   │   └── ExpenseController.cs
-│   ├── Models/
-│   │   ├── Expense.cs
-│   │   └── ExpenseDbContext.cs
-│   ├── Properties/
-│   │   └── AssemblyInfo.cs
-│   ├── Web.config
-│   ├── Global.asax
-│   └── packages.config
+│ ├── App_Start/
+│ │ └── WebApiConfig.cs
+│ ├── Controllers/
+│ │ └── ExpenseController.cs
+│ ├── Models/
+│ │ ├── Expense.cs
+│ │ └── ExpenseDbContext.cs
+│ ├── Properties/
+│ │ └── AssemblyInfo.cs
+│ ├── Web.config
+│ ├── Global.asax
+│ └── packages.config
 ├── .gitignore
 ├── README.md
-└── .vs/   (auto-generated — ignore in git)
-
-
-
+└── .vs/ (auto-generated — ignore in git)
 
